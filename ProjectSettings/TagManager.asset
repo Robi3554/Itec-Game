@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Weapon
+  - Enemy
+  - EnemyWeapon
+  - Xamolses
+  - OneWayPlatform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Wall
+  - Water
+  - UI
+  - Background
+  - Enemy
+  - Platform
+  - Player
+  - Foreground
+  - Weapon
+  - Thief
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 42076651
+    locked: 0
+  - name: Skeleton
+    uniqueID: 2670660093
+    locked: 0
+  - name: Platform
+    uniqueID: 171487399
+    locked: 0
+  - name: Player
+    uniqueID: 1390091195
+    locked: 0
+  - name: Foreground
+    uniqueID: 227892211
+    locked: 0
