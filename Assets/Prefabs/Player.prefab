@@ -212,7 +212,7 @@ MonoBehaviour:
   maxHealth: 40
   numberOfFlashes: 4
   speed: 15
-  jumpForce: 25
+  jumpForce: 30
   checkRadius: 0.5
   flashDuration: 0.3
   playerDamage: 10
@@ -221,6 +221,7 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   weapon: {fileID: 7608274439965793521}
   groundCheck: {fileID: 7608274438714250097}
+  playerSpawn: {fileID: 0}
   triggerCol: {fileID: 5443597388549171133}
   groundLayer:
     serializedVersion: 2

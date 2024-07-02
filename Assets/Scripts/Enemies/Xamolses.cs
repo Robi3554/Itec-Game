@@ -59,7 +59,6 @@ public class Xamolses : MonoBehaviour
 
     void Update()
     {
-
         if (transform.position.x > target.transform.position.x && isFacingRight)
         {
             Flip();
@@ -184,8 +183,6 @@ public class Xamolses : MonoBehaviour
     {
         anim.SetBool("attack1", true);
         anim.SetBool("run", false);
-
-
     }
 
     public void ReturnToIdle()
