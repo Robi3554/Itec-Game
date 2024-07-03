@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: 0}
-  effect: {fileID: 2203619850813440363, guid: 0a03fbf69ff61324f809eb6dee2bcf68, type: 3}
+  effect: {fileID: 2203619850813440363, guid: eeb9ee1537a545d458f90b80b9606a2f, type: 3}
   addDamage: 2.5
 --- !u!1 &4928793583154046728
 GameObject:

@@ -16,7 +16,7 @@ public class Xamolses : MonoBehaviour
     private GameObject player;
 
     [SerializeField]
-    private GameObject 
+    private GameObject
         attack,
         explosion;
 
@@ -75,12 +75,12 @@ public class Xamolses : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(CheckPlayerAggro())
+        if (CheckPlayerAggro())
         {
             Debug.Log("PlayeDetected");
         }
 
-        if(inPhaseOne)
+        if (inPhaseOne)
         {
             movement.Set(speed * facingDir, rb.velocity.y);
             rb.velocity = movement;
@@ -96,7 +96,7 @@ public class Xamolses : MonoBehaviour
     {
         maxHealth += stolenStats.health;
 
-        damage += stolenStats.damage;    
+        damage += stolenStats.damage;
 
         speed += stolenStats.speed;
     }
@@ -133,7 +133,7 @@ public class Xamolses : MonoBehaviour
 
             yield return new WaitForSeconds(3f);
 
-            if(CheckPlayerAggro())
+            if (CheckPlayerAggro())
             {
                 if (CheckAttackRange())
                 {

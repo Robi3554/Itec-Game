@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2309143384717575340}
   - component: {fileID: 2309143384717575341}
-  - component: {fileID: 2309143384717575346}
   - component: {fileID: 2309143384717575347}
+  - component: {fileID: 5104461152198798966}
   m_Layer: 9
   m_Name: HealthUp
   m_TagString: Untagged
@@ -87,21 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2309143384717575346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2309143384717575344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7729d3b823f0de845b934c876bcc139e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
-  effect: {fileID: 2203619850813440363, guid: 0a03fbf69ff61324f809eb6dee2bcf68, type: 3}
-  addHealth: 10
 --- !u!61 &2309143384717575347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -128,6 +113,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5104461152198798966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2309143384717575344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7729d3b823f0de845b934c876bcc139e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 0}
+  effect: {fileID: 2203619850813440363, guid: eeb9ee1537a545d458f90b80b9606a2f, type: 3}
+  addHealth: 0
 --- !u!1 &2309143385508930293
 GameObject:
   m_ObjectHideFlags: 0
